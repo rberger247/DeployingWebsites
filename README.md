@@ -6,3 +6,7 @@
 4. Create a new Asp.net Standard Web API Application 4.7.2
 5. Ensure you are able to run the application and that it is pointing to the right local server (iisExpress/ local IIS)
 6. Update the Boostrap Version
+7. After deploy edit web.config file and remove all code in system.codedom  
+8. add <system.web>
+   <trust level="Full"/>
+</system.web>
