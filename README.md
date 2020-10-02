@@ -10,3 +10,4 @@
 8. add <system.web>
    <trust level="Full"/>
 </system.web>
+9. Settings : delete existing files,  precompile and exclude files from the app_data in advanced configure settings uncheck allow precompile and emit debug
